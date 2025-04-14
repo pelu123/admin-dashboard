@@ -2,7 +2,8 @@
 
 export default function Plan() {
     return (
-        <div className="flex sticky top[calc(100vh_-_48px_-_16px)] flex-col h-12 border-t px-2 border-stone-400 justify-end text-sm">
+        <div className="flex sticky flex-col h-12 border-t px-2 border-stone-400 justify-end text-sm"
+        style={{ top: 'calc(100vh - 48px - 16px)' }}>
             <div className="flex items-center justify-between">
                 <div>
                   <p className="font-bold">Enterprice</p>
